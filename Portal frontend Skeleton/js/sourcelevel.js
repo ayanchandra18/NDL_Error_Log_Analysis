@@ -12,7 +12,7 @@ app.controller('sourceCtrl', function($scope,$http) {
 	$scope.collectionName = "test_source";
 	$scope.flag = false;
 	
-	var url = "http://10.146.95.172:3010/api/sourcelevel";
+	var url = "http://10.146.95.172:3000/api/sourcelevel";
 	$scope.setChoice = function(choice){
 		$scope.selectedOption = choice;
 		if(choice === 'informationCode')
